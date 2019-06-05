@@ -1,7 +1,7 @@
 # coding: utf-8
 import time
 from timeout_decorator.timeout_decorator import TimeoutError
-from rhome.logger import logger
+from pihome.logger import logger
 
 
 class BaseSensor(object):

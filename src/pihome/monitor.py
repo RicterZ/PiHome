@@ -2,7 +2,7 @@
 import time
 import requests
 
-from rhome.logger import logger
+from pihome.logger import logger
 
 
 class Monitor(object):

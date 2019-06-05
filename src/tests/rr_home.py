@@ -1,7 +1,7 @@
 # coding: utf-8
-from rhome.room import Room
-from rhome.sensor import ht, aloud_sound
-from rhome.monitor import Monitor
+from pihome.room import Room
+from pihome.sensor import ht, aloud_sound
+from pihome.monitor import Monitor
 
 monitor = Monitor(interval=1)
 

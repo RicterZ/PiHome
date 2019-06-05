@@ -1,5 +1,5 @@
 # coding: utf-8
-from rhome.logger import logger
+from pihome.logger import logger
 
 
 class Room(object):

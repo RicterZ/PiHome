@@ -1,8 +1,8 @@
 # coding: utf-8
 import RPi.GPIO as GPIO
 from timeout_decorator import timeout
-from rhome.sensor.vendor.dht11 import DHT11
-from rhome.sensor.base_sensor import BaseSensor
+from pihome.sensor.vendor.dht11 import DHT11
+from pihome.sensor.base_sensor import BaseSensor
 
 
 class HTSensor(BaseSensor):

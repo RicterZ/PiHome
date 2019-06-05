@@ -1,7 +1,7 @@
 # coding: utf-8
 import RPi.GPIO as GPIO
-from rhome.sensor.base_sensor import BaseSensor
-from rhome.logger import logger
+from pihome.sensor.base_sensor import BaseSensor
+from pihome.logger import logger
 
 
 class AloudSoundSensor(BaseSensor):
